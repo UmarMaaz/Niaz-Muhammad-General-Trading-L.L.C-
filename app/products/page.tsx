@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer"
 import Image from "next/image"
 
 export const metadata = {
-  title: "Products | Niaz Minerals - Premium Talc & Barite",
+  title: "Premium Talc & Barite Products | Niaz Muhammad General Trading L.L.C.",
   description:
     "Explore our premium Talc and Barite products with detailed specifications, applications, and technical data sheets.",
 }
@@ -58,15 +58,41 @@ export default function ProductsPage() {
     },
   ]
 
+  const productSchema = products.map((product) => ({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: `https://niazminerals.com${product.image}`,
+    description: product.description,
+    brand: {
+      "@type": "Brand",
+      name: "Niaz Muhammad General Trading L.L.C.",
+    },
+    offers: {
+      "@type": "Offer",
+      url: `https://niazminerals.com/products#${product.name.toLowerCase()}`,
+      priceCurrency: "USD",
+      price: "Contact for Price",
+      availability: "https://schema.org/InStock",
+    },
+  }))
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productSchema),
+        }}
+      />
       <Navbar />
 
       {/* Hero Section */}
       <HeroSection
-        title="Our Products"
+        title="Premium Talc & Barite Products"
         subtitle="Premium Talc and Barite sourced and processed to international standards"
         backgroundImage="/talc-barite-mineral-mine-texture.jpg"
+        alt="Talc and Barite Mineral Mine Texture"
         showScrollIndicator={true}
       />
 
@@ -92,7 +118,7 @@ export default function ProductsPage() {
             <div data-animate>
               <h3 className="text-3xl font-bold text-foreground mb-4">Talc</h3>
               <p className="text-muted-foreground mb-4">
-                Talc enhances product performance, efficiency, and value across cosmetics, pharmaceuticals, ceramics, plastics, and paints. Our premium talc guarantees consistent particle size, superior purity, and reliable performance for both precision and large-scale industrial applications.
+                Our premium talc enhances product performance, efficiency, and value across diverse sectors including cosmetics, pharmaceuticals, ceramics, plastics, and paints. This high-purity talc guarantees consistent particle size, superior whiteness, and reliable performance for both precision and large-scale industrial applications.
               </p>
               <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: Mg₃Si₄O₁₀(OH)₂</p>
               <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
@@ -129,7 +155,7 @@ export default function ProductsPage() {
             <div data-animate className="md:order-1">
               <h3 className="text-3xl font-bold text-foreground mb-4">Barite</h3>
               <p className="text-muted-foreground mb-4">
-                Barite is a high-density mineral vital for oil & gas drilling, paints, plastics, rubber, and other industrial uses. Our premium-grade barite ensures purity, consistency, and dependable supply, engineered to meet the international standards and enhance industrial performance.
+                Barite, a high-density mineral, is vital for critical applications such as oil & gas drilling fluids, paints, plastics, rubber, and other industrial uses. Our premium-grade barite ensures exceptional purity, consistency, and dependable supply, engineered to meet stringent international standards and enhance industrial performance.
               </p>
               <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: BaSO₄</p>
               <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>

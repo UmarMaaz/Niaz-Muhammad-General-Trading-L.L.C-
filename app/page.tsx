@@ -59,7 +59,7 @@ export default function Home() {
               <div className="w-20 h-20 relative">
                 <Image
                   src="/niaz-minerals-logo.jpg"
-                  alt="Niaz Minerals"
+                  alt="Niaz Muhammad General Trading L.L.C. Logo"
                   width={80}
                   height={80}
                   className="w-full h-full"
@@ -85,12 +85,11 @@ export default function Home() {
             <div data-animate>
               <h2 className="text-foreground mb-6">About Niaz Muhammad General Trading L.L.C.</h2>
               <p className="text-muted-foreground mb-4">
-                With over two decades of experience in the minerals industry, Niaz Muhammad General Trading L.L.C. has
-                established itself as a trusted global supplier of premium Talc and Barite.
+                With over two decades of experience as a premium industrial minerals supplier, Niaz Muhammad General Trading L.L.C. has
+                established itself as a trusted global supplier of high-quality Talc and Barite in the Dubai, UAE region and beyond.
               </p>
               <p className="text-muted-foreground mb-6">
-                Based in Dubai, we serve industries worldwide including oil & gas, paints, plastics, ceramics, and
-                cosmetics with consistent quality and reliable logistics.
+                Based strategically in Dubai, we cater to diverse industries worldwide, including oil & gas, paints & coatings, plastics & rubber, ceramics & tiles, and cosmetics. We pride ourselves on delivering consistent quality, reliable logistics, and competitive pricing for all your industrial mineral needs.
               </p>
               <div className="grid grid-cols-3 gap-4">
                 <div className="text-center" data-animate>
@@ -110,7 +109,7 @@ export default function Home() {
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl" data-animate>
               <img
                 src="/industrial-minerals-processing-facility.jpg"
-                alt="Niaz Minerals Facility"
+                alt="Industrial Minerals Processing Facility of Niaz Muhammad General Trading L.L.C."
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -141,22 +140,25 @@ export default function Home() {
             <div data-animate>
               <h3 className="text-3xl font-bold text-foreground mb-4">Talc</h3>
               <p className="text-muted-foreground mb-4">
-                Premium talc powder with exceptional purity and whiteness, ideal for cosmetics, paints, and industrial applications.
+                Talc enhances product performance, efficiency, and value across cosmetics, pharmaceuticals, ceramics, plastics, and paints. Our premium talc guarantees consistent particle size, superior purity, and reliable performance for both precision and large-scale industrial applications.
               </p>
               <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: Mg₃Si₄O₁₀(OH)₂</p>
               <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
               <ul className="space-y-1 text-sm text-muted-foreground mb-4">
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>High purity (98%+)</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Bright white color</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Fine particle size</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Low moisture content</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Density: 2.7-2.8 g/cm³</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Mohs hardness: 1 (softest mineral)</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Heat resistant and chemically inert</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Hydrophobic & oleophilic (repels water, absorbs oils)</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Lamellar (plate-like) structure for smoothness and lubrication</span></li>
               </ul>
               <h4 className="font-semibold text-foreground mb-2">Applications:</h4>
               <ul className="space-y-1 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Cosmetics & Personal Care</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Pharmaceuticals</span></li>
                 <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Paints & Coatings</span></li>
                 <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Plastics & Rubber</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Ceramics</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Ceramics & Tiles</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Industrial Applications</span></li>
               </ul>
             </div>
           </div>
@@ -175,22 +177,24 @@ export default function Home() {
             <div data-animate className="md:order-1">
               <h3 className="text-3xl font-bold text-foreground mb-4">Barite</h3>
               <p className="text-muted-foreground mb-4">
-                High-density barite ideal for drilling fluids, paints, and industrial applications requiring superior weight and opacity.
+                Barite is a high-density mineral vital for oil & gas drilling, paints, plastics, rubber, and other industrial uses. Our premium-grade barite ensures purity, consistency, and dependable supply, engineered to meet the international standards and enhance industrial performance.
               </p>
               <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: BaSO₄</p>
               <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
               <ul className="space-y-1 text-sm text-muted-foreground mb-4">
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>High specific gravity (4.5)</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Excellent opacity</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Low solubility</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Chemical inert</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Density: 4.4 g/cm³</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Mohs hardness: 3-3.5</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>High radiation absorption</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Chemically inert and acid/base resistant</span></li>
               </ul>
               <h4 className="font-semibold text-foreground mb-2">Applications:</h4>
               <ul className="space-y-1 text-sm text-muted-foreground">
                 <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Oil & Gas Drilling</span></li>
                 <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Paints & Coatings</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Medical Applications</span></li>
                 <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Rubber & Plastics</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Medical Applications</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Radiation Shielding</span></li>
+                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Industrial Uses</span></li>
               </ul>
             </div>
           </div>
@@ -206,42 +210,42 @@ export default function Home() {
               <IndustryCard
                 name="Oil & Gas"
                 icon={<Icons.Droplet />}
-                description="Premium barite for drilling fluids and well completion applications."
+                description="High-quality barite for essential drilling fluids and well completion applications in the oil & gas industry."
               />
             </div>
             <div data-animate>
               <IndustryCard
                 name="Paints & Coatings"
                 icon={<Icons.Zap />}
-                description="High-quality talc and barite for superior finish and durability."
+                description="High-quality talc and barite for superior finish, enhanced durability, and optimal performance in paints and coatings."
               />
             </div>
             <div data-animate>
               <IndustryCard
                 name="Plastics & Rubber"
                 icon={<Icons.Globe />}
-                description="Mineral additives for enhanced properties and performance."
+                description="Specialized mineral additives for enhanced properties, improved performance, and cost-effectiveness in plastics and rubber manufacturing."
               />
             </div>
             <div data-animate>
               <IndustryCard
                 name="Ceramics"
                 icon={<Icons.Award />}
-                description="Premium talc for ceramic glazes and body compositions."
+                description="Premium talc for high-quality ceramic glazes, body compositions, and improved firing properties in the ceramics industry."
               />
             </div>
             <div data-animate>
               <IndustryCard
                 name="Cosmetics"
                 icon={<Icons.Users />}
-                description="Ultra-pure talc for cosmetics and personal care products."
+                description="Ultra-pure talc for cosmetics and personal care products, ensuring smoothness, absorbency, and a luxurious feel."
               />
             </div>
             <div data-animate>
               <IndustryCard
                 name="Sustainability"
                 icon={<Icons.Leaf />}
-                description="Responsibly sourced minerals with environmental commitment."
+                description="Commitment to responsibly sourced minerals and sustainable practices, ensuring environmental stewardship and ethical supply chains."
               />
             </div>
           </div>
