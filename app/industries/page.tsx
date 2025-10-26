@@ -84,7 +84,7 @@ export default function IndustriesPage() {
       <HeroSection
         title="Industries We Serve"
         subtitle="Trusted by leading companies across multiple sectors worldwide"
-        backgroundImage="/industrial-minerals-facility.jpg"
+        backgroundVideo="/industry_video.mp4"
         showScrollIndicator={true}
       />
 

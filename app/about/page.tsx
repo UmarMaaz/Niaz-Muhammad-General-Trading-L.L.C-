@@ -20,7 +20,7 @@ export default function AboutPage() {
       <HeroSection
         title="About Niaz Minerals"
         subtitle="Two decades of excellence in global mineral supply"
-        backgroundImage="/industrial-minerals-facility.jpg"
+        backgroundVideo="/about_video.mp4"
         showScrollIndicator={true}
       />
 
