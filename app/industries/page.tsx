@@ -32,7 +32,7 @@ export default function IndustriesPage() {
         "Geothermal Drilling",
         "Workover Operations",
       ],
-      products: ["Barite - Drilling Grade"],
+      products: ["Barite"],
     },
     {
       title: "Paints & Coatings",
@@ -40,7 +40,7 @@ export default function IndustriesPage() {
       description:
         "Both talc and barite enhance paint formulations by improving opacity, coverage, and durability. Our minerals provide excellent suspension and reduce settling.",
       applications: ["Architectural Paints", "Industrial Coatings", "Protective Coatings", "Specialty Finishes"],
-      products: ["Talc - Industrial Grade", "Barite - Industrial Grade"],
+      products: ["Talc", "Barite"],
     },
     {
       title: "Plastics & Rubber",
@@ -48,15 +48,15 @@ export default function IndustriesPage() {
       description:
         "Mineral fillers improve mechanical properties, reduce costs, and enhance processing characteristics in plastic and rubber compounds.",
       applications: ["Plastic Compounds", "Rubber Manufacturing", "Injection Molding", "Extrusion Applications"],
-      products: ["Talc - Industrial Grade", "Barite - Industrial Grade"],
+      products: ["Talc", "Barite"],
     },
     {
       title: "Ceramics & Tiles",
       icon: <Award className="w-12 h-12" />,
       description:
         "Premium talc is used in ceramic glazes and body compositions to improve firing characteristics and surface finish.",
-      applications: ["Ceramic Glazes", "Tile Manufacturing", "Porcelain Production", "Sanitaryware"],
-      products: ["Talc - Premium Grade"],
+      products: ["Talc"],
+    },
     },
     {
       title: "Cosmetics & Personal Care",
@@ -64,7 +64,7 @@ export default function IndustriesPage() {
       description:
         "Ultra-pure talc is essential in cosmetics for its absorbency, smoothness, and skin-friendly properties. Our talc meets strict cosmetic grade standards.",
       applications: ["Body Powders", "Makeup Products", "Deodorants", "Personal Care Items"],
-      products: ["Talc - Premium Grade"],
+      products: ["Talc"],
     },
     {
       title: "Sustainability",
