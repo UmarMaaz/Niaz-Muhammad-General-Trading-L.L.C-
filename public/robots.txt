@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Sitemap: https://niazminerals.com/sitemap.xml
+Sitemap: https://niaz-muhammad-general-trading-l-l-c.vercel.app/sitemap.xml
