@@ -126,76 +126,49 @@ export default function Home() {
             subtitle="High-quality Talc and Barite sourced and processed to international standards"
           />
 
-          {/* Talc Product Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-16">
-            <div className="relative rounded-lg overflow-hidden shadow-xl" data-animate>
-              <Image
-                src="/talc-mineral-powder.jpg"
-                alt="Talc Mineral Powder"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Talc Product Card */}
+            <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1" data-animate>
+              <div className="relative h-64 w-full">
+                <Image
+                  src="/talc-mineral-powder.jpg"
+                  alt="Talc Mineral Powder"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              </div>
+              <div className="p-6 text-center">
+                <h3 className="text-2xl font-bold text-foreground mb-3">Talc</h3>
+                <Link
+                  href="/products#talc"
+                  className="inline-block px-6 py-2 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-lg transition-all duration-200"
+                >
+                  View Product
+                </Link>
+              </div>
             </div>
-            <div data-animate>
-              <h3 className="text-3xl font-bold text-foreground mb-4">Talc</h3>
-              <p className="text-muted-foreground mb-4">
-                Talc enhances product performance, efficiency, and value across cosmetics, pharmaceuticals, ceramics, plastics, and paints. Our premium talc guarantees consistent particle size, superior purity, and reliable performance for both precision and large-scale industrial applications.
-              </p>
-              <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: Mg₃Si₄O₁₀(OH)₂</p>
-              <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
-              <ul className="space-y-1 text-sm text-muted-foreground mb-4">
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Density: 2.7-2.8 g/cm³</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Mohs hardness: 1 (softest mineral)</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Heat resistant and chemically inert</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Hydrophobic & oleophilic (repels water, absorbs oils)</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Lamellar (plate-like) structure for smoothness and lubrication</span></li>
-              </ul>
-              <h4 className="font-semibold text-foreground mb-2">Applications:</h4>
-              <ul className="space-y-1 text-sm text-muted-foreground">
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Cosmetics & Personal Care</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Pharmaceuticals</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Paints & Coatings</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Plastics & Rubber</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Ceramics & Tiles</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Industrial Applications</span></li>
-              </ul>
-            </div>
-          </div>
 
-          {/* Barite Product Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
-            <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl">
-              <Image
-                src="/barite-mineral-powder.jpg"
-                alt="Barite Mineral Powder"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-            </div>
-            <div data-animate className="md:order-1">
-              <h3 className="text-3xl font-bold text-foreground mb-4">Barite</h3>
-              <p className="text-muted-foreground mb-4">
-                Barite is a high-density mineral vital for oil & gas drilling, paints, plastics, rubber, and other industrial uses. Our premium-grade barite ensures purity, consistency, and dependable supply, engineered to meet the international standards and enhance industrial performance.
-              </p>
-              <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: BaSO₄</p>
-              <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
-              <ul className="space-y-1 text-sm text-muted-foreground mb-4">
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Density: 4.4 g/cm³</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Mohs hardness: 3-3.5</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>High radiation absorption</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Chemically inert and acid/base resistant</span></li>
-              </ul>
-              <h4 className="font-semibold text-foreground mb-2">Applications:</h4>
-              <ul className="space-y-1 text-sm text-muted-foreground">
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Oil & Gas Drilling</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Paints & Coatings</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Rubber & Plastics</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Medical Applications</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Radiation Shielding</span></li>
-                <li className="flex items-start gap-2"><span className="text-primary mt-1">•</span><span>Industrial Uses</span></li>
-              </ul>
+            {/* Barite Product Card */}
+            <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1" data-animate>
+              <div className="relative h-64 w-full">
+                <Image
+                  src="/barite-mineral-powder.jpg"
+                  alt="Barite Mineral Powder"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              </div>
+              <div className="p-6 text-center">
+                <h3 className="text-2xl font-bold text-foreground mb-3">Barite</h3>
+                <Link
+                  href="/products#barite"
+                  className="inline-block px-6 py-2 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-lg transition-all duration-200"
+                >
+                  View Product
+                </Link>
+              </div>
             </div>
           </div>
         </div>
