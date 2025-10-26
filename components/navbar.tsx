@@ -74,12 +74,6 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button
-              onClick={() => handleNavClick("/contact")}
-              className="px-6 py-2 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-lg transition-all duration-200"
-            >
-              Get Quote
-            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -100,12 +94,6 @@ export function Navbar() {
                 {link.label}
               </button>
             ))}
-            <button
-              onClick={() => handleNavClick("/contact")}
-              className="block w-full px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-center"
-            >
-              Get Quote
-            </button>
           </div>
         )}
       </div>
