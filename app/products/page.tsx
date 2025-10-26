@@ -91,8 +91,7 @@ export default function ProductsPage() {
       <HeroSection
         title="Premium Talc & Barite Products"
         subtitle="Premium Talc and Barite sourced and processed to international standards"
-        backgroundImage="/talc-barite-mineral-mine-texture.jpg"
-        alt="Talc and Barite Mineral Mine Texture"
+        backgroundVideo="/products_video.mp4"
         showScrollIndicator={true}
       />
 
