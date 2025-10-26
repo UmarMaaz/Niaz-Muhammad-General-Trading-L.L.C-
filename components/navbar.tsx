@@ -54,8 +54,8 @@ export function Navbar() {
               />
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg text-foreground">Niaz Muhammad General Trading L.L.C.</div>
-              <div className="text-xs text-muted-foreground">Premium Minerals Supplier</div>
+              <div className={`font-bold text-lg ${isScrolled ? "text-foreground" : "text-background"}`}>Niaz Muhammad General Trading L.L.C.</div>
+              <div className={`text-xs ${isScrolled ? "text-muted-foreground" : "text-background/80"}`}>Premium Minerals Supplier</div>
             </div>
           </Link>
 
@@ -65,7 +65,7 @@ export function Navbar() {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                className={`${isScrolled ? "text-foreground" : "text-background"} hover:text-primary transition-colors duration-200 font-medium`}
               >
                 {link.label}
               </button>
@@ -77,7 +77,7 @@ export function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden text-foreground" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          <button className={`md:hidden ${isScrolled ? "text-foreground" : "text-background"}`} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? <Icons.X /> : <Icons.Menu />}
           </button>
         </div>
