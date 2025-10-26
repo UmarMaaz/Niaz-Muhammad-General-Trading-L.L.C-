@@ -143,17 +143,11 @@ export default function Home() {
               <p className="text-muted-foreground mb-6">
                 Discover the exceptional purity and versatility of our premium Talc. Ideal for a wide range of industrial applications, our Talc products are meticulously processed to meet the highest quality standards.
               </p>
-              <Link
-                href="/products#talc"
-                className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl transition-all duration-200 hover:scale-105"
-              >
-                View Product Details
-              </Link>
             </div>
           </div>
 
           {/* Barite Product Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-12">
             <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/barite-mineral-powder.jpg"
@@ -168,13 +162,16 @@ export default function Home() {
               <p className="text-muted-foreground mb-6">
                 Explore our high-density Barite, engineered for superior performance in demanding industrial environments such as oil & gas drilling, paints, and plastics. Our Barite ensures purity, consistency, and dependable supply.
               </p>
-              <Link
-                href="/products#barite"
-                className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl transition-all duration-200 hover:scale-105"
-              >
-                View Product Details
-              </Link>
             </div>
+          </div>
+
+          <div className="text-center" data-animate>
+            <Link
+              href="/products"
+              className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl transition-all duration-200 hover:scale-105"
+            >
+              Explore Our Products
+            </Link>
           </div>
         </div>
       </section>
