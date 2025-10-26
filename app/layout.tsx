@@ -44,13 +44,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://niazminerals.com",
+    url: "https://niaz-muhammad-general-trading-l-l-c.vercel.app",
     siteName: "Niaz Muhammad General Trading L.L.C.",
     title: "Niaz Muhammad General Trading L.L.C. | Global Talc & Barite Exporters",
     description: "Delivering Minerals. Delivering Trust.",
     images: [
       {
-        url: "https://niazminerals.com/og-image.jpg",
+        url: "https://niaz-muhammad-general-trading-l-l-c.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Niaz Muhammad General Trading L.L.C. - Premium Mineral Supplier",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Niaz Muhammad General Trading L.L.C. | Premium Talc & Barite Supplier",
     description: "Delivering Minerals. Delivering Trust.",
-    images: ["https://niazminerals.com/og-image.jpg"],
+    images: ["https://niaz-muhammad-general-trading-l-l-c.vercel.app/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://niazminerals.com",
+    canonical: "https://niaz-muhammad-general-trading-l-l-c.vercel.app",
   },
     generator: 'v0.app'
 }
@@ -97,13 +97,13 @@ export default function RootLayout({
               "@type": "Organization",
               name: "Niaz Muhammad General Trading L.L.C.",
               alternateName: "Niaz Minerals",
-              url: "https://niazminerals.com",
-              logo: "https://niazminerals.com/logo.png",
+              url: "https://niaz-muhammad-general-trading-l-l-c.vercel.app",
+              logo: "https://niaz-muhammad-general-trading-l-l-c.vercel.app/logo.png",
               description: "Premium Talc and Barite supplier from Dubai to the world",
               sameAs: [
-                "https://www.facebook.com/niazminerals",
-                "https://www.linkedin.com/company/niaz-minerals",
-                "https://www.instagram.com/niazminerals",
+                "https://www.facebook.com/niaz-muhammad-general-trading-l-l-c",
+                "https://www.linkedin.com/company/niaz-muhammad-general-trading-l-l-c",
+                "https://www.instagram.com/niaz-muhammad-general-trading-l-l-c",
               ],
               address: {
                 "@type": "PostalAddress",

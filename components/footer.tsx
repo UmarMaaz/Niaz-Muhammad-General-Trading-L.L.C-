@@ -14,7 +14,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold">NM</span>
               </div>
-              <span className="font-bold text-lg">Niaz Minerals</span>
+              <span className="font-bold text-lg">Niaz Muhammad General Trading L.L.C.</span>
             </div>
             <p className="text-background/80">Premium Talc & Barite supplier from Dubai to the world.</p>
           </div>
@@ -26,6 +26,7 @@ export function Footer() {
               {[
                 { label: "Home", href: "/" },
                 { label: "About", href: "/about" },
+                { label: "Branches", href: "/branches" },
                 { label: "Products", href: "/products" },
                 { label: "Industries", href: "/industries" },
               ].map((link) => (

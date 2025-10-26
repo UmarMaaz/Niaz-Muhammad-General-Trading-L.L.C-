@@ -28,6 +28,7 @@ export function Navbar() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
+    { href: "/branches", label: "Branches" },
     { href: "/products", label: "Products" },
     { href: "/industries", label: "Industries" },
     { href: "/downloads", label: "Downloads" },
@@ -46,14 +47,14 @@ export function Navbar() {
             <div className="w-12 h-12 relative">
               <Image
                 src="/niaz-minerals-logo.jpg"
-                alt="Niaz Minerals Logo"
+                alt="Niaz Muhammad General Trading L.L.C. Logo"
                 width={48}
                 height={48}
                 className="w-full h-full"
               />
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg text-foreground">Niaz Minerals</div>
+              <div className="font-bold text-lg text-foreground">Niaz Muhammad General Trading L.L.C.</div>
               <div className="text-xs text-muted-foreground">Premium Minerals Supplier</div>
             </div>
           </Link>
