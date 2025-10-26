@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { SectionTitle } from "@/components/section-title"
 import { Footer } from "@/components/footer"
 import { CheckCircle, Target, Leaf } from "lucide-react"
+import Image from "next/image"
 
 export const metadata = {
   title: "About | Niaz Minerals - Our Story & Values",
