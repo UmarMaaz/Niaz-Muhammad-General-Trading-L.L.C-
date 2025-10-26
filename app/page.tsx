@@ -127,49 +127,54 @@ export default function Home() {
             subtitle="High-quality Talc and Barite sourced and processed to international standards"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {/* Talc Product Overview */}
-            <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1" data-animate>
-              <div className="relative h-64 w-full">
-                <Image
-                  src="/talc-mineral-powder.jpg"
-                  alt="Talc Mineral Powder"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-              </div>
-              <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-foreground">Talc</h3>
-                <p className="text-muted-foreground mt-2">Exceptional purity and versatility for diverse industrial applications.</p>
-              </div>
+          {/* Talc Product Section */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-16">
+            <div className="relative rounded-lg overflow-hidden shadow-xl" data-animate>
+              <Image
+                src="/talc-mineral-powder.jpg"
+                alt="Talc Mineral Powder"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
-
-            {/* Barite Product Overview */}
-            <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1" data-animate>
-              <div className="relative h-64 w-full">
-                <Image
-                  src="/barite-mineral-powder.jpg"
-                  alt="Barite Mineral Powder"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-              </div>
-              <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold text-foreground">Barite</h3>
-                <p className="text-muted-foreground mt-2">High-density mineral for superior performance in demanding industrial environments.</p>
-              </div>
+            <div data-animate>
+              <h3 className="text-3xl font-bold text-foreground mb-4">Talc</h3>
+              <p className="text-muted-foreground mb-6">
+                Discover the exceptional purity and versatility of our premium Talc. Ideal for a wide range of industrial applications, our Talc products are meticulously processed to meet the highest quality standards.
+              </p>
+              <Link
+                href="/products#talc"
+                className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl transition-all duration-200 hover:scale-105"
+              >
+                View Product Details
+              </Link>
             </div>
           </div>
 
-          <div className="text-center" data-animate>
-            <Link
-              href="/products"
-              className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl transition-all duration-200 hover:scale-105"
-            >
-              View All Products
-            </Link>
+          {/* Barite Product Section */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
+            <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl">
+              <Image
+                src="/barite-mineral-powder.jpg"
+                alt="Barite Mineral Powder"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+            </div>
+            <div data-animate className="md:order-1">
+              <h3 className="text-3xl font-bold text-foreground mb-4">Barite</h3>
+              <p className="text-muted-foreground mb-6">
+                Explore our high-density Barite, engineered for superior performance in demanding industrial environments such as oil & gas drilling, paints, and plastics. Our Barite ensures purity, consistency, and dependable supply.
+              </p>
+              <Link
+                href="/products#barite"
+                className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:shadow-xl transition-all duration-200 hover:scale-105"
+              >
+                View Product Details
+              </Link>
+            </div>
           </div>
         </div>
       </section>
