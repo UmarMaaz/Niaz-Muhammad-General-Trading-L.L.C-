@@ -9,6 +9,7 @@ import { IndustryCard } from "@/components/industry-card"
 import { Footer } from "@/components/footer"
 import { Icons } from "@/lib/icons"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   useEffect(() => {
