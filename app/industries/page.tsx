@@ -57,15 +57,6 @@ export default function IndustriesPage() {
         "Premium talc is used in ceramic glazes and body compositions to improve firing characteristics and surface finish.",
       products: ["Talc"],
     },
-    },
-    {
-      title: "Cosmetics & Personal Care",
-      icon: <Users className="w-12 h-12" />,
-      description:
-        "Ultra-pure talc is essential in cosmetics for its absorbency, smoothness, and skin-friendly properties. Our talc meets strict cosmetic grade standards.",
-      applications: ["Body Powders", "Makeup Products", "Deodorants", "Personal Care Items"],
-      products: ["Talc"],
-    },
     {
       title: "Sustainability",
       icon: <Leaf className="w-12 h-12" />,
