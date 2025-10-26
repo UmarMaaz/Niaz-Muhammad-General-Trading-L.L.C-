@@ -84,7 +84,7 @@ export function Navbar() {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden pb-4 space-y-2">
+          <div className="md:hidden pb-4 space-y-2 bg-background rounded-b-lg shadow-lg">
             {navLinks.map((link) => (
               <button
                 key={link.href}
