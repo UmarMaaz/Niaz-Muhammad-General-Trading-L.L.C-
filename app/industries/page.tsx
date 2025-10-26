@@ -55,6 +55,7 @@ export default function IndustriesPage() {
       icon: <Award className="w-12 h-12" />,
       description:
         "Premium talc is used in ceramic glazes and body compositions to improve firing characteristics and surface finish.",
+      applications: ["Ceramic Glazes", "Tile Manufacturing", "Porcelain Production", "Sanitaryware"],
       products: ["Talc"],
     },
     {
