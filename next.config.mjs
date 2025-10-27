@@ -52,6 +52,20 @@ const nextConfig = {
       },
     ]
   },
+  redirects: async () => {
+    return [
+      {
+        source: "/talc",
+        destination: "/products",
+        permanent: true,
+      },
+      {
+        source: "/barite",
+        destination: "/products",
+        permanent: true,
+      },
+    ]
+  },
   eslint: {
     ignoreDuringBuilds: true, // Added eslint ignoreDuringBuilds option
   },
