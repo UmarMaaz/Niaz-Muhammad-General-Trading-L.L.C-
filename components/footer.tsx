@@ -25,10 +25,9 @@ export function Footer() {
             <ul className="space-y-2">
               {[
                 { label: "Home", href: "/" },
-                { label: "About", href: "/about" },
-                { label: "Branches", href: "/branches" },
-                { label: "Products", href: "/products" },
-                { label: "Industries", href: "/industries" },
+                { label: "About", href: "/#about" },
+                { label: "Products", href: "/#products" },
+                { label: "Uses", href: "/#uses" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-background/80 hover:text-background transition-colors">
@@ -44,8 +43,7 @@ export function Footer() {
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
               {[
-                { label: "Downloads", href: "/downloads" },
-                { label: "Contact", href: "/contact" },
+                { label: "Contact", href: "/#contact" },
                 { label: "Privacy Policy", href: "#" },
                 { label: "Terms & Conditions", href: "#" },
               ].map((link) => (
