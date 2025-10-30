@@ -4,6 +4,7 @@ import { SectionTitle } from "@/components/section-title"
 import { Footer } from "@/components/footer"
 import { CheckCircle, Target, Leaf } from "lucide-react"
 import Image from "next/image"
+import { ImageCarousel } from "@/components/ui/image-carousel"
 
 export const metadata = {
   title: "About | Niaz Minerals - Our Story & Values",
@@ -17,12 +18,27 @@ export default function AboutPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <HeroSection
-        title="About Niaz Minerals"
-        subtitle="Two decades of excellence in global mineral supply"
-        backgroundVideo="/about_video.mp4"
-        showScrollIndicator={true}
-      />
+      <div className="relative h-[60vh] w-full">
+        <ImageCarousel
+          images={[
+            "/about_1.jpg",
+            "/about_2.jpg",
+            "/about_3.jpg",
+            "/about_4.jpg",
+            "/about_5.jpg",
+            "/about_6.jpg",
+            "/about_7.jpg",
+          ]}
+          className="w-full h-full"
+          imageClassName="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <div className="text-center text-white p-4">
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">About Niaz Minerals</h1>
+            <p className="mt-4 text-lg md:text-xl">Two decades of excellence in global mineral supply</p>
+          </div>
+        </div>
+      </div>
 
       {/* Company Story */}
       <section className="py-20 bg-background">
@@ -46,10 +62,13 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-              <img
-                src="/company-headquarters.jpg"
-                alt="Niaz Minerals Headquarters"
-                className="w-full h-full object-cover"
+              <ImageCarousel
+                images={[
+                  "/owner_1.jpg",
+                  "/owner_2.jpg",
+                ]}
+                className="w-full h-full"
+                imageClassName="object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
@@ -63,31 +82,22 @@ export default function AboutPage() {
           <SectionTitle title="Our Team" subtitle="Meet the dedicated professionals behind Niaz Muhammad General Trading L.L.C." centered={true} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Example Team Member 1 */}
+            {/* Team Member 1 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Team Member Name" fill className="object-cover" />
+                <Image src="/owner_1.jpg" alt="Muhammad Umar" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Muhammad Umar</h3>
               <p className="text-muted-foreground">CEO & Founder</p>
             </div>
 
-            {/* Example Team Member 2 */}
+            {/* Team Member 2 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Team Member Name" fill className="object-cover" />
+                <Image src="/owner_2.jpg" alt="Maaz Khan" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Maaz Khan</h3>
               <p className="text-muted-foreground">Head of Operations</p>
-            </div>
-
-            {/* Example Team Member 3 */}
-            <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Team Member Name" fill className="object-cover" />
-              </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">[Team Member Name]</h3>
-              <p className="text-muted-foreground">[Team Member Title]</p>
             </div>
           </div>
         </div>
