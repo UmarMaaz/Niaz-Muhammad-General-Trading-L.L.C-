@@ -18,7 +18,7 @@ export default function AboutPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="relative h-[60vh] w-full">
+      <div className="relative h-[40vh] w-full">
         <ImageCarousel
           images={[
             "/about_1.jpg",
@@ -34,8 +34,8 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white p-4">
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight">About Niaz Minerals</h1>
-            <p className="mt-4 text-lg md:text-xl">Two decades of excellence in global mineral supply</p>
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight">About Niaz Minerals</h1>
+            <p className="mt-2 text-base md:text-lg">Two decades of excellence in global mineral supply</p>
           </div>
         </div>
       </div>
