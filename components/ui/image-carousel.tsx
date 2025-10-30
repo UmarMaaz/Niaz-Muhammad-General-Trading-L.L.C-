@@ -19,6 +19,7 @@ interface ImageCarouselProps {
 }
 
 export function ImageCarousel({ images, className, imageClassName }: ImageCarouselProps) {
+  console.log("ImageCarousel received images:", images);
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: false })
   )
