@@ -10,6 +10,7 @@ import { Footer } from "@/components/footer"
 import { Icons } from "@/lib/icons"
 import Image from "next/image"
 import Link from "next/link"
+import { ImageCarousel } from "@/components/ui/image-carousel"
 
 export default function Home() {
   useEffect(() => {
@@ -108,10 +109,14 @@ export default function Home() {
               </div>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl" data-animate>
-              <img
-                src="/industrial-minerals-processing-facility.jpg"
-                alt="Industrial Minerals Processing Facility of Niaz Muhammad General Trading L.L.C."
-                className="w-full h-full object-cover"
+              <ImageCarousel
+                images={[
+                  "/headquarter_1.jpg",
+                  "/headquarter_2.jpg",
+                  "/headquarter_3.jpg",
+                ]}
+                className="w-full h-full"
+                imageClassName="object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
