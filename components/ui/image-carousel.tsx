@@ -26,7 +26,7 @@ export function ImageCarousel({ images, className, imageClassName }: ImageCarous
   return (
     <Carousel
       plugins={[plugin.current]}
-      className={className}
+      className={`w-full h-full ${className}`}
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >

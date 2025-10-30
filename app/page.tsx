@@ -115,7 +115,6 @@ export default function Home() {
                   "/headquarter_2.jpg",
                   "/headquarter_3.jpg",
                 ]}
-                className="w-full h-full"
                 imageClassName="object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
