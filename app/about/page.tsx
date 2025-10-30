@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, Target, Leaf } from "lucide-react"
 import Image from "next/image"
 import { ImageCarousel } from "@/components/ui/image-carousel"
-import FinanceManager from "@/../public/finance_manager.jpg";
+import FinanceManager from "../../public/finance_manager.jpg";
 export const metadata = {
   title: "About | Niaz Minerals - Our Story & Values",
   description:
