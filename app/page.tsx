@@ -73,7 +73,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-lg text-foreground font-semibold mb-2">Delivering Excellence Since 2000</p>
+
 
             </div>
           </div>
