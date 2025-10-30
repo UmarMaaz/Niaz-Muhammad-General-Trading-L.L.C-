@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, Target, Leaf } from "lucide-react"
 import Image from "next/image"
 import { ImageCarousel } from "@/components/ui/image-carousel"
-
+import FinanceManager from "@/../public/finance_manager.jpg";
 export const metadata = {
   title: "About | Niaz Minerals - Our Story & Values",
   description:
@@ -91,7 +91,7 @@ export default function AboutPage() {
             {/* Team Member 3 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/finance_manager.jpg" alt="Nadar Shah Khaaksar" fill className="object-cover" />
+                <Image src={FinanceManager} alt="Nadar Shah Khaaksar" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Nadar Shah Khaaksar</h3>
               <p className="text-muted-foreground">Finance Manager</p>
