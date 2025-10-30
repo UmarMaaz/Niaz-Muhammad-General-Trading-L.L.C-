@@ -52,6 +52,9 @@ export default function AboutPage() {
                   "/headquarter_1.jpg",
                   "/headquarter_2.jpg",
                   "/headquarter_3.jpg",
+                  "/about_1.jpg",
+                  "/about_2.jpg",
+                  "/about_3.jpg",
                 ]}
                 imageClassName="object-cover object-center"
               />
