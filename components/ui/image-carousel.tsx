@@ -32,20 +32,14 @@ export function ImageCarousel({ images, className, imageClassName }: ImageCarous
     >
       <CarouselContent>
         {images.map((image, index) => (
-          <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <Image
-                    src={image}
-                    alt={`Carousel image ${index + 1}`}
-                    layout="fill"
-                    objectFit="cover"
-                    className={imageClassName}
-                  />
-                </CardContent>
-              </Card>
-            </div>
+          <CarouselItem key={index} className="relative h-full w-full">
+            <Image
+              src={image}
+              alt={`Carousel image ${index + 1}`}
+              layout="fill"
+              objectFit="cover"
+              className={imageClassName}
+            />
           </CarouselItem>
         ))}
       </CarouselContent>
