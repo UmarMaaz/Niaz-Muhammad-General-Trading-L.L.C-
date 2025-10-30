@@ -37,7 +37,9 @@ export function ImageCarousel({ images, className, imageClassName }: ImageCarous
             <Image
               src={image}
               alt={`Carousel image ${index + 1}`}
-              layout="fill"
+              width={1000} // Explicit width
+              height={1000} // Explicit height
+              style={{ width: '100%', height: '100%' }} // Force fill parent
               objectFit="cover"
               className={imageClassName}
             />
