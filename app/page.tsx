@@ -74,7 +74,7 @@ export default function Home() {
             </div>
             <div className="text-center md:text-right">
               <p className="text-lg text-foreground font-semibold mb-2">Delivering Excellence Since 2000</p>
-              <p className="text-muted-foreground">Serving 500+ clients across 50+ countries</p>
+
             </div>
           </div>
         </div>
