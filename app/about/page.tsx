@@ -136,76 +136,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Process */}
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTitle title="Our Process" subtitle="From source to delivery, we maintain the highest standards" />
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[
-              {
-                step: "1",
-                title: "Sourcing",
-                description:
-                  "We partner with certified mining operations that meet our strict quality and environmental standards.",
-              },
-              {
-                step: "2",
-                title: "Processing",
-                description:
-                  "Advanced processing facilities ensure consistent particle size, purity, and quality specifications.",
-              },
-              {
-                step: "3",
-                title: "Quality Control",
-                description:
-                  "Every batch undergoes comprehensive laboratory testing to verify specifications and certifications.",
-              },
-              {
-                step: "4",
-                title: "Logistics",
-                description: "Reliable global logistics network ensures timely delivery to customers worldwide.",
-              },
-            ].map((item, index) => (
-              <div key={index} className="relative">
-                <div className="bg-card p-8 rounded-lg shadow-lg text-center">
-                  <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4">
-                    {item.step}
-                  </div>
-                  <h3 className="text-xl font-bold text-foreground mb-3">{item.title}</h3>
-                  <p className="text-muted-foreground">{item.description}</p>
-                </div>
-                {index < 3 && (
-                  <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
-                    <div className="w-8 h-0.5 bg-primary" />
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* Key Achievements */}
-      <section className="py-20 bg-muted">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTitle title="Key Achievements" subtitle="Milestones in our journey of excellence" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { number: "20+", label: "Years of Experience" },
-              { number: "500+", label: "Global Clients" },
-              { number: "50+", label: "Countries Served" },
-              { number: "ISO 9001:2015", label: "Certified" },
-            ].map((achievement, index) => (
-              <div key={index} className="bg-card p-8 rounded-lg shadow-lg text-center">
-                <div className="text-4xl font-bold text-primary mb-2">{achievement.number}</div>
-                <p className="text-muted-foreground">{achievement.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
