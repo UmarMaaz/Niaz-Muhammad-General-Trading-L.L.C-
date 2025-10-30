@@ -17,31 +17,28 @@ export default function AboutPage() {
     <main className="min-h-screen">
       <Navbar />
 
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="md:col-span-2 lg:col-span-3">
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">About Niaz Minerals</h1>
-              <p className="text-xl text-muted-foreground">Two decades of excellence in global mineral supply</p>
-            </div>
-            <div className="md:col-span-2 lg:col-span-3">
-              <ImageCarousel
-                images={[
-                  "/about_1.jpg",
-                  "/about_2.jpg",
-                  "/about_3.jpg",
-                  "/about_4.jpg",
-                  "/about_5.jpg",
-                  "/about_6.jpg",
-                  "/about_7.jpg",
-                ]}
-                className="w-full h-96"
-                imageClassName="object-cover object-center"
-              />
-            </div>
+      {/* Hero Section */}
+      <div className="relative h-[40vh] w-full">
+        <ImageCarousel
+          images={[
+            "/about_1.jpg",
+            "/about_2.jpg",
+            "/about_3.jpg",
+            "/about_4.jpg",
+            "/about_5.jpg",
+            "/about_6.jpg",
+            "/about_7.jpg",
+          ]}
+          className="w-full h-full"
+          imageClassName="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <div className="text-center text-white p-4">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight">About Niaz Minerals</h1>
+            <p className="mt-2 text-base md:text-lg">Two decades of excellence in global mineral supply</p>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* Company Story */}
       <section className="py-20 bg-background">
