@@ -92,6 +92,7 @@ export default function AboutPage() {
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
                 <Image src="/finance_manager.jpg" alt="[Finance Manager Name]" fill className="object-cover" />
+                {console.log("Loading Finance Manager image from:", "/finance_manager.jpg")}
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">[Finance Manager Name]</h3>
               <p className="text-muted-foreground">Finance Manager</p>
