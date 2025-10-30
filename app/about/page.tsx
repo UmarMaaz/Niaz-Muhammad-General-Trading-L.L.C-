@@ -63,31 +63,22 @@ export default function AboutPage() {
           <SectionTitle title="Our Team" subtitle="Meet the dedicated professionals behind Niaz Muhammad General Trading L.L.C." centered={true} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Example Team Member 1 */}
+            {/* Team Member 1 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Team Member Name" fill className="object-cover" />
+                <Image src="/owner_1.jpg" alt="Muhammad Umar" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Muhammad Umar</h3>
               <p className="text-muted-foreground">CEO & Founder</p>
             </div>
 
-            {/* Example Team Member 2 */}
+            {/* Team Member 2 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Team Member Name" fill className="object-cover" />
+                <Image src="/owner_2.jpg" alt="Maaz Khan" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Maaz Khan</h3>
               <p className="text-muted-foreground">Head of Operations</p>
-            </div>
-
-            {/* Example Team Member 3 */}
-            <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
-              <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Team Member Name" fill className="object-cover" />
-              </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">[Team Member Name]</h3>
-              <p className="text-muted-foreground">[Team Member Title]</p>
             </div>
           </div>
         </div>
