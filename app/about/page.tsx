@@ -4,6 +4,7 @@ import { SectionTitle } from "@/components/section-title"
 import { Footer } from "@/components/footer"
 import { CheckCircle, Target, Leaf } from "lucide-react"
 import Image from "next/image"
+import { ImageCarousel } from "@/components/ui/image-carousel"
 
 export const metadata = {
   title: "About | Niaz Minerals - Our Story & Values",
@@ -46,10 +47,13 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-              <img
-                src="/company-headquarters.jpg"
-                alt="Niaz Minerals Headquarters"
-                className="w-full h-full object-cover"
+              <ImageCarousel
+                images={[
+                  "/headquarter_1.jpg",
+                  "/headquarter_2.jpg",
+                  "/headquarter_3.jpg",
+                ]}
+                imageClassName="object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>

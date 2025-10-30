@@ -80,48 +80,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Snapshot Section */}
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div data-animate>
-              <h2 className="text-foreground mb-6">About Niaz Muhammad General Trading L.L.C.</h2>
-              <p className="text-muted-foreground mb-4">
-                With over two decades of experience as a premium industrial minerals supplier, Niaz Muhammad General Trading L.L.C. has
-                established itself as a trusted global supplier of high-quality Talc and Barite in the Dubai, UAE region and beyond.
-              </p>
-              <p className="text-muted-foreground mb-6">
-                Based strategically in Dubai, we cater to diverse industries worldwide, including oil & gas, paints & coatings, plastics & rubber, ceramics & tiles, and cosmetics. We pride ourselves on delivering consistent quality, reliable logistics, and competitive pricing for all your industrial mineral needs.
-              </p>
-              <div className="grid grid-cols-3 gap-4">
-                <div className="text-center" data-animate>
-                  <div className="text-3xl font-bold text-primary mb-2">20+</div>
-                  <p className="text-sm text-muted-foreground">Years Experience</p>
-                </div>
-                <div className="text-center" data-animate>
-                  <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                  <p className="text-sm text-muted-foreground">Global Clients</p>
-                </div>
-                <div className="text-center" data-animate>
-                  <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                  <p className="text-sm text-muted-foreground">Countries</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative h-96 rounded-lg overflow-hidden shadow-xl" data-animate>
-              <ImageCarousel
-                images={[
-                  "/headquarter_1.jpg",
-                  "/headquarter_2.jpg",
-                  "/headquarter_3.jpg",
-                ]}
-                imageClassName="object-cover object-center"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Our Minerals Section */}
       <section className="py-20 bg-muted">
