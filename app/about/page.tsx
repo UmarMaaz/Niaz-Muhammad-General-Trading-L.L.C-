@@ -87,6 +87,15 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-foreground mb-1">Maaz Khan</h3>
               <p className="text-muted-foreground">Head of Operations</p>
             </div>
+
+            {/* Team Member 3 */}
+            <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                <Image src="/finance_manager.jpg" alt="[Finance Manager Name]" fill className="object-cover" />
+              </div>
+              <h3 className="text-xl font-bold text-foreground mb-1">[Finance Manager Name]</h3>
+              <p className="text-muted-foreground">Finance Manager</p>
+            </div>
           </div>
         </div>
       </section>
