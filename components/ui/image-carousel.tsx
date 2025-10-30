@@ -30,7 +30,7 @@ export function ImageCarousel({ images, className, imageClassName }: ImageCarous
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent>
+      <CarouselContent className="h-full">
         {images.map((image, index) => (
           <CarouselItem key={index} className="relative h-full w-full">
             <Image
