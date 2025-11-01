@@ -30,21 +30,7 @@ export default function ContactPage() {
             subtitle="Have a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Our Address</h3>
-              <p className="text-muted-foreground mb-4">
-                Niaz enterprises Near sarhad University opposite fahad CNG Peshawar
-              </p>
-              <h3 className="text-2xl font-bold text-foreground mb-4">Email</h3>
-              <p className="text-muted-foreground mb-4">
-                Niazenterprises2@gmail.com
-              </p>
-            </div>
-            <div>
-              <ContactForm />
-            </div>
-          </div>
+          <ContactForm />
         </div>
       </section>
 
@@ -53,15 +39,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-foreground mb-12 text-center">Our Location</h2>
           <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.3237590863!2d71.30639539999999!3d34.015136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d917b92b29ab81%3A0x57557728b903a7a0!2sPeshawar%2C%20Khyber%20Pakhtunkhwa%2C%20Pakistan!5e0!3m2!1sen!2s!4v1678888888888!5m2!1sen!2s"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d366.93535476156626!2d71.53398379493842!3d33.967590841136065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMain%20office%20%20Niaz%20enterprises%20Near%20sarhad%20University%20opposite%20fahad%20CNG%20Peshawar%20ring%20road!5e1!3m2!1sen!2s!4v1761986258741!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
