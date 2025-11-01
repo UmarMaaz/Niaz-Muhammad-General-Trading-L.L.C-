@@ -25,7 +25,7 @@ export default function IndustriesPage() {
       title: "Oil & Gas",
       icon: <Droplet className="w-12 h-12" />,
       description:
-        "Barite is essential in drilling fluids for oil and gas exploration and production. Our high-density barite provides superior suspension properties and meets API specifications.",
+        "Barite is essential in drilling fluids for oil and gas exploration. Our high-density barite provides superior suspension properties.",
       applications: [
         "Drilling Fluid Weighting Agent",
         "Well Completion Fluids",
@@ -38,7 +38,7 @@ export default function IndustriesPage() {
       title: "Paints & Coatings",
       icon: <Zap className="w-12 h-12" />,
       description:
-        "Both talc and barite enhance paint formulations by improving opacity, coverage, and durability. Our minerals provide excellent suspension and reduce settling.",
+        "Talc and barite enhance paint formulations by improving opacity, coverage, and durability.",
       applications: ["Architectural Paints", "Industrial Coatings", "Protective Coatings", "Specialty Finishes"],
       products: ["Talc", "Barite"],
     },
@@ -46,7 +46,7 @@ export default function IndustriesPage() {
       title: "Plastics & Rubber",
       icon: <Globe className="w-12 h-12" />,
       description:
-        "Mineral fillers improve mechanical properties, reduce costs, and enhance processing characteristics in plastic and rubber compounds.",
+        "Mineral fillers improve mechanical properties and enhance processing characteristics in plastic and rubber compounds.",
       applications: ["Plastic Compounds", "Rubber Manufacturing", "Injection Molding", "Extrusion Applications"],
       products: ["Talc", "Barite"],
     },
@@ -62,7 +62,7 @@ export default function IndustriesPage() {
       title: "Sustainability",
       icon: <Leaf className="w-12 h-12" />,
       description:
-        "We are committed to responsible sourcing and environmental stewardship. Our operations follow strict sustainability guidelines and best practices.",
+        "We are committed to responsible sourcing and environmental stewardship.",
       applications: ["Responsible Mining", "Environmental Compliance", "Community Support", "Waste Reduction"],
       products: ["All Products"],
     },
@@ -75,7 +75,7 @@ export default function IndustriesPage() {
       {/* Hero Section */}
       <HeroSection
         title="Industries We Serve"
-        subtitle="Trusted by leading companies across multiple sectors worldwide"
+        subtitle="Talc & Barite Applications"
         backgroundVideo="/industry_video.mp4"
         showScrollIndicator={true}
       />
@@ -84,8 +84,8 @@ export default function IndustriesPage() {
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
-            title="Serving Global Industries"
-            subtitle="Our minerals are essential components in products used by millions worldwide"
+            title="Industries We Serve"
+            subtitle=""
           />
 
           <div className="space-y-16">
