@@ -94,7 +94,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-16">
             <div className="relative rounded-lg overflow-hidden shadow-xl h-64 md:h-auto" data-animate>
               <Image
-                src="/talc-mineral-powder.jpg"
+                src="/talc.jpg"
                 alt="Talc Mineral Powder"
                 fill
                 className="object-cover"
