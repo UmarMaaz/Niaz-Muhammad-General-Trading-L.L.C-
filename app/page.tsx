@@ -190,6 +190,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Global Presence */}
+      <section className="py-20 bg-muted">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTitle title="Our Global Presence" subtitle="Find our branches across the globe" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div data-animate>
+              <IndustryCard
+                name="Dubai Headquarters"
+                icon={<Icons.MapPin />}
+                description="Office 101, Business Bay, Dubai, UAE"
+              />
+            </div>
+            <div data-animate>
+              <IndustryCard
+                name="Peshawar Main Office"
+                icon={<Icons.MapPin />}
+                description="Niaz enterprises Near sarhad University opposite fahad CNG Peshawar"
+              />
+            </div>
+            <div data-animate>
+              <IndustryCard
+                name="Afghanistan"
+                icon={<Icons.MapPin />}
+                description="[Address of Branch 3]"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
