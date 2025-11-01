@@ -1,53 +1,6 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
-
 export function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    country: "",
-    subject: "",
-    message: "",
-  })
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      })
-
-      if (response.ok) {
-        setSubmitStatus("success")
-        setFormData({ name: "", email: "", country: "", subject: "", message: "" })
-        setTimeout(() => setSubmitStatus("idle"), 5000)
-      } else {
-        setSubmitStatus("error")
-        setTimeout(() => setSubmitStatus("idle"), 5000)
-      }
-    } catch (error) {
-      console.error("Form submission error:", error)
-      setSubmitStatus("error")
-      setTimeout(() => setSubmitStatus("idle"), 5000)
-    } finally {
-      setIsSubmitting(false)
-    }
-  }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -115,7 +68,7 @@ export function ContactForm() {
       </div>
 
       {/* Contact Form */}
-      <form onSubmit={handleSubmit} className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
+      <form data-vercel-form className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div>
             <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">
@@ -125,8 +78,6 @@ export function ContactForm() {
               type="text"
               id="name"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
               placeholder="Your name"
@@ -140,8 +91,6 @@ export function ContactForm() {
               type="email"
               id="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
               placeholder="your@email.com"
@@ -157,8 +106,6 @@ export function ContactForm() {
             <select
               id="country"
               name="country"
-              value={formData.country}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
             >
@@ -180,8 +127,6 @@ export function ContactForm() {
               type="text"
               id="subject"
               name="subject"
-              value={formData.subject}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
               placeholder="How can we help?"
@@ -196,8 +141,6 @@ export function ContactForm() {
           <textarea
             id="message"
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             required
             rows={5}
             className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground resize-none"
@@ -205,26 +148,13 @@ export function ContactForm() {
           />
         </div>
 
-        {/* Status Messages */}
-        {submitStatus === "success" && (
-          <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
-            Thank you! Your message has been sent successfully. We'll get back to you soon.
-          </div>
-        )}
-        {submitStatus === "error" && (
-          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-800">
-            There was an error sending your message. Please try again or contact us directly.
-          </div>
-        )}
-
         {/* Submit Button */}
         <button
           type="submit"
-          disabled={isSubmitting}
           className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:shadow-lg transition-all duration-200 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
         >
           <Send className="w-4 h-4" />
-          {isSubmitting ? "Sending..." : "Send Message"}
+          Send Message
         </button>
       </form>
     </div>
