@@ -70,7 +70,7 @@ export function ContactForm() {
       </div>
 
       {/* Contact Form */}
-      <form action="mailto:Niazenterprises2@gmail.com?subject=Contact%20Form%20Submission" method="POST" enctype="text/plain" className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
+      <form action="mailto:umarmaaz.ur.123@gmail.com?subject=Contact%20Form%20Submission" method="POST" enctype="text/plain" className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div>
             <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">
