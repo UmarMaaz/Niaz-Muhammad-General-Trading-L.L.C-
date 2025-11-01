@@ -139,57 +139,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Industries We Serve */}
-      <section className="py-20 bg-background">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTitle title="Industries We Serve" subtitle="Trusted by leading companies across multiple sectors" />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div data-animate>
-              <IndustryCard
-                name="Oil & Gas"
-                icon={<Icons.Droplet />}
-                description="High-quality barite for essential drilling fluids and well completion applications in the oil & gas industry."
-              />
-            </div>
-            <div data-animate>
-              <IndustryCard
-                name="Paints & Coatings"
-                icon={<Icons.Zap />}
-                description="High-quality talc and barite for superior finish, enhanced durability, and optimal performance in paints and coatings."
-              />
-            </div>
-            <div data-animate>
-              <IndustryCard
-                name="Plastics & Rubber"
-                icon={<Icons.Globe />}
-                description="Specialized mineral additives for enhanced properties, improved performance, and cost-effectiveness in plastics and rubber manufacturing."
-              />
-            </div>
-            <div data-animate>
-              <IndustryCard
-                name="Ceramics"
-                icon={<Icons.Award />}
-                description="Premium talc for high-quality ceramic glazes, body compositions, and improved firing properties in the ceramics industry."
-              />
-            </div>
-            <div data-animate>
-              <IndustryCard
-                name="Cosmetics"
-                icon={<Icons.Users />}
-                description="Ultra-pure talc for cosmetics and personal care products, ensuring smoothness, absorbency, and a luxurious feel."
-              />
-            </div>
-            <div data-animate>
-              <IndustryCard
-                name="Sustainability"
-                icon={<Icons.Leaf />}
-                description="Commitment to responsibly sourced minerals and sustainable practices, ensuring environmental stewardship and ethical supply chains."
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Our Global Presence */}
       <section className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
