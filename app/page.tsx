@@ -97,7 +97,7 @@ export default function Home() {
                 src="/talc.jpg"
                 alt="Talc Mineral Powder"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
