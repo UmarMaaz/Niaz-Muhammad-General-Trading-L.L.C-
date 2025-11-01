@@ -1,34 +1,8 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
 import { Mail, Phone, MapPin, Send } from "lucide-react"
-import { useForm } from '@formspree/react';
 
 export function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    country: "",
-    subject: "",
-    message: "",
-  })
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
-
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_NEW_FORM as string);
-
-  if (state.succeeded) {
-    return (
-      <div className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg flex items-center justify-center h-full">
-        <p className="text-green-600 text-lg font-semibold">Thank you for your message! We'll get back to you soon.</p>
-      </div>
-    );
-  }
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -96,7 +70,7 @@ export function ContactForm() {
       </div>
 
       {/* Contact Form */}
-      <form onSubmit={handleSubmit} className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
+      <form action="mailto:Niazenterprises2@gmail.com?subject=Contact%20Form%20Submission" method="POST" enctype="text/plain" className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div>
             <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">
@@ -106,8 +80,6 @@ export function ContactForm() {
               type="text"
               id="name"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
               placeholder="Your name"
@@ -121,8 +93,6 @@ export function ContactForm() {
               type="email"
               id="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
               placeholder="your@email.com"
@@ -138,8 +108,6 @@ export function ContactForm() {
             <select
               id="country"
               name="country"
-              value={formData.country}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
             >
@@ -161,8 +129,6 @@ export function ContactForm() {
               type="text"
               id="subject"
               name="subject"
-              value={formData.subject}
-              onChange={handleChange}
               required
               className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
               placeholder="How can we help?"
@@ -177,8 +143,6 @@ export function ContactForm() {
           <textarea
             id="message"
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             required
             rows={5}
             className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground resize-none"
@@ -189,11 +153,10 @@ export function ContactForm() {
         {/* Submit Button */}
         <button
           type="submit"
-          disabled={state.submitting}
-          className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:shadow-lg transition-all duration-200 font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:shadow-lg transition-all duration-200 font-semibold"
         >
           <Send className="w-4 h-4" />
-          {state.submitting ? "Sending..." : "Send Message"}
+          Send Message
         </button>
       </form>
     </div>
