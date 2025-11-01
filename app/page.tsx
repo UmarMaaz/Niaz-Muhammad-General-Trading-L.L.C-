@@ -91,8 +91,8 @@ export default function Home() {
           />
 
           {/* Talc Product Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-16">
-            <div className="relative rounded-lg overflow-hidden shadow-xl h-96 w-96 mx-auto" data-animate>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+            <div className="relative rounded-lg overflow-hidden shadow-xl h-96" data-animate>
               <Image
                 src="/talc.jpg"
                 alt="Talc Mineral Powder"
@@ -110,8 +110,8 @@ export default function Home() {
           </div>
 
           {/* Barite Product Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-12">
-            <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl h-64 md:h-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
+            <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl h-96">
               <Image
                 src="/barite-mineral-powder.jpg"
                 alt="Barite Mineral Powder"
