@@ -1,5 +1,7 @@
 "use client"
 
+import { Mail, Phone, MapPin, Send } from "lucide-react"
+
 export function ContactForm() {
 
   return (
