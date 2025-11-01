@@ -81,25 +81,25 @@ export default function AboutPage() {
             {/* Team Member 2 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/owner_2.jpg" alt="Nabi Afghan Khaksar" fill className="object-cover" />
+                <Image src="/owner_2.jpg" alt="Nabi Afghan" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">Nabi Afghan Khaksar</h3>
+              <h3 className="text-xl font-bold text-foreground mb-1">Nabi Afghan</h3>
               <p className="text-muted-foreground">CEO</p>
             </div>
 
             {/* Team Member 3 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/finance_mgr.jpg" alt="Nadar Shah Khaaksar" fill className="object-contain" />
+                <Image src="/finance_mgr.jpg" alt="Nadar Shah" fill className="object-contain" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">Nadar Shah Khaaksar</h3>
+              <h3 className="text-xl font-bold text-foreground mb-1">Nadar Shah</h3>
               <p className="text-muted-foreground">Finance Manager</p>
             </div>
 
             {/* Team Member 4 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/placeholder-user.jpg" alt="Noman Niaz" fill className="object-cover" />
+                <Image src="/noman.png" alt="Noman Niaz" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Noman Niaz</h3>
               <p className="text-muted-foreground">Marketing Manager</p>
