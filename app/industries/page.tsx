@@ -160,6 +160,25 @@ export default function IndustriesPage() {
         </div>
       </section>
 
+      {/* Our Valued Partners */}
+      <section className="py-20 bg-muted">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTitle
+            title="Our Valued Partners"
+            subtitle="We are proud to partner with leading companies in the industry"
+            centered={true}
+          />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+            <div className="bg-card p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <h3 className="text-2xl font-bold text-foreground mb-4">AMS</h3>
+              <p className="text-muted-foreground">
+                A key partner for our Talc and Barite products, leveraging our high-quality minerals for their innovative solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

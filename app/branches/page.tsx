@@ -19,13 +19,13 @@ export default function BranchesPage() {
       email: "info@niazminerals.com",
     },
     {
-      name: "Branch Office 2",
-      address: "[Address of Branch 2]",
+      name: "Peshawar Main Office",
+      address: "Niaz enterprises Near sarhad University opposite fahad CNG Peshawar",
       phone: "[Phone of Branch 2]",
-      email: "[Email of Branch 2]",
+      email: "Niazenterprises2@gmail.com",
     },
     {
-      name: "Branch Office 3",
+      name: "Afghanistan",
       address: "[Address of Branch 3]",
       phone: "[Phone of Branch 3]",
       email: "[Email of Branch 3]",

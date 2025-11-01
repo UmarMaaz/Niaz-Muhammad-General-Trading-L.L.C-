@@ -68,23 +68,23 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle title="Our Team" subtitle="Meet the dedicated professionals behind Niaz Muhammad General Trading L.L.C." centered={true} />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Team Member 1 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/owner_1.jpg" alt="Muhammad Umar" fill className="object-cover" />
+                <Image src="/owner_1.jpg" alt="Niaz Muhammad" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">Muhammad Umar</h3>
+              <h3 className="text-xl font-bold text-foreground mb-1">Niaz Muhammad</h3>
               <p className="text-muted-foreground">CEO & Founder</p>
             </div>
 
             {/* Team Member 2 */}
             <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
-                <Image src="/owner_2.jpg" alt="Maaz Khan" fill className="object-cover" />
+                <Image src="/owner_2.jpg" alt="Nabi Afghan Khaksar" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">Maaz Khan</h3>
-              <p className="text-muted-foreground">Head of Operations</p>
+              <h3 className="text-xl font-bold text-foreground mb-1">Nabi Afghan Khaksar</h3>
+              <p className="text-muted-foreground">CEO</p>
             </div>
 
             {/* Team Member 3 */}
@@ -94,6 +94,15 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-foreground mb-1">Nadar Shah Khaaksar</h3>
               <p className="text-muted-foreground">Finance Manager</p>
+            </div>
+
+            {/* Team Member 4 */}
+            <div className="bg-card p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div className="relative w-32 h-32 rounded-full overflow-hidden mx-auto mb-4">
+                <Image src="/placeholder-user.jpg" alt="Noman Niaz" fill className="object-cover" />
+              </div>
+              <h3 className="text-xl font-bold text-foreground mb-1">Noman Niaz</h3>
+              <p className="text-muted-foreground">Marketing Manager</p>
             </div>
           </div>
         </div>
