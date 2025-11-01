@@ -142,7 +142,7 @@ export default function ProductsPage() {
 
           {/* Barite Product Section */}
           <div id="barite" className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
-            <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl h-64 md:h-auto">
+            <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl h-96 w-96 mx-auto">
               <Image
                 src="/barite-mineral-powder.jpg"
                 alt="Barite Mineral Powder"
