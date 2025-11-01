@@ -15,7 +15,7 @@ export default function BranchesPage() {
     {
       name: "Dubai Headquarters",
       address: "Office 101, Business Bay, Dubai, UAE",
-      phone: "+971 XXXXXXXX",
+      phone: "+971 56 370 8034",
       email: "info@niazminerals.com",
     },
     {
