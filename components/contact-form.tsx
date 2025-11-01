@@ -58,6 +58,14 @@ export function ContactForm() {
           <p className="text-muted-foreground mb-6">
             Get in touch with our team. We're here to help and answer any questions you may have.
           </p>
+          <h3 className="text-2xl font-bold text-foreground mb-4">Our Main Office</h3>
+          <p className="text-muted-foreground mb-4">
+            Niaz enterprises Near Sarhad University opposite Fahad CNG Peshawar ring road
+          </p>
+          <h3 className="text-2xl font-bold text-foreground mb-4">Email</h3>
+          <p className="text-muted-foreground mb-4">
+            Niazenterprises2@gmail.com
+          </p>
         </div>
 
         <div className="space-y-4">
