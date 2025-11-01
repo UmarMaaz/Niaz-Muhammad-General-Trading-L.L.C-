@@ -75,7 +75,7 @@ export function ContactForm() {
             </div>
             <div>
               <h4 className="font-semibold text-foreground mb-1">Address</h4>
-              <p className="text-muted-foreground">Dubai, United Arab Emirates</p>
+              <p className="text-muted-foreground">Main office Niaz enterprises Near sarhad University opposite Fahad CNG Peshawar</p>
             </div>
           </div>
 
@@ -85,7 +85,7 @@ export function ContactForm() {
             </div>
             <div>
               <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-              <p className="text-muted-foreground">+971 XXXXXXXX</p>
+              <p className="text-muted-foreground">+971 56 370 8034</p>
             </div>
           </div>
 
@@ -95,7 +95,7 @@ export function ContactForm() {
             </div>
             <div>
               <h4 className="font-semibold text-foreground mb-1">Email</h4>
-              <p className="text-muted-foreground">info@niazminerals.com</p>
+              <p className="text-muted-foreground">Niazenterprises2@gmail.com</p>
             </div>
           </div>
         </div>
