@@ -39,7 +39,7 @@ export default function ProductsPage() {
       name: "Barite",
       description:
         "Barite is a high-density mineral vital for oil & gas drilling, paints, plastics, rubber, and other industrial uses. Our premium-grade barite ensures purity, consistency, and dependable supply, engineered to meet the international standards and enhance industrial performance.",
-      image: "/barite-mineral-powder.jpg",
+      image: "/barite.jpg",
       formula: "BaSO₄",
       characteristics: [
         "Density: 4.4 g/cm³",
@@ -144,7 +144,7 @@ export default function ProductsPage() {
           <div id="barite" className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
             <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl h-64 md:h-auto">
               <Image
-                src="/barite-mineral-powder.jpg"
+                src="/barite.jpg"
                 alt="Barite Mineral Powder"
                 fill
                 className="object-cover"
