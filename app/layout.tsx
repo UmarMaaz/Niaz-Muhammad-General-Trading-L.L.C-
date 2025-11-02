@@ -77,7 +77,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://niaz-muhammad-general-trading-l-l-c.vercel.app",
   },
-    generator: 'v0.app'
+
 }
 
 export default function RootLayout({
@@ -98,7 +98,7 @@ export default function RootLayout({
               name: "Niaz Muhammad General Trading L.L.C.",
               alternateName: "Niaz Minerals",
               url: "https://niaz-muhammad-general-trading-l-l-c.vercel.app",
-              logo: "https://niaz-muhammad-general-trading-l-l-c.vercel.app/logo.png",
+              logo: "https://niaz-muhammad-general-trading-l-l-c.vercel.app/niaz-minerals-logo.jpg",
               description: "Premium Talc and Barite supplier from Dubai to the world",
               sameAs: [
                 "https://www.facebook.com/niaz-muhammad-general-trading-l-l-c",
@@ -114,8 +114,8 @@ export default function RootLayout({
               contactPoint: {
                 "@type": "ContactPoint",
                 contactType: "Customer Service",
-                telephone: "+971-XXXXXXXX",
-                email: "info@niazminerals.com",
+                telephone: "+971563708034",
+                email: "Niazenterprises2@gmail.com",
               },
             }),
           }}
