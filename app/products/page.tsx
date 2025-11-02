@@ -178,37 +178,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* Specifications Section */}
-      <section className="py-20 bg-muted">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionTitle
-            title="Quality Assurance"
-            subtitle="All our products undergo rigorous testing and quality control"
-          />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-card p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-foreground mb-4">ISO Certified</h3>
-              <p className="text-muted-foreground">
-                Our facilities maintain ISO 9001:2015 certification ensuring consistent quality and process excellence.
-              </p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-foreground mb-4">Lab Tested</h3>
-              <p className="text-muted-foreground">
-                Every batch undergoes comprehensive laboratory analysis to verify purity, particle size, and
-                specifications.
-              </p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-foreground mb-4">Certified Suppliers</h3>
-              <p className="text-muted-foreground">
-                We work with certified mining operations and maintain full traceability from source to delivery.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
