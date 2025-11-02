@@ -1,8 +1,27 @@
 "use client"
 
+import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from "lucide-react"
 
 export function ContactForm() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    formData.append("access_key", "0c840790-a508-47e3-98df-9a4fd41b7349");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+    setResult(data.success ? "Message sent successfully!" : "Error sending message.");
+    if (data.success) {
+      event.currentTarget.reset(); // Clear the form fields on success
+    }
+  };
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -70,7 +89,7 @@ export function ContactForm() {
       </div>
 
       {/* Contact Form */}
-      <form className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
+      <form onSubmit={onSubmit} className="lg:col-span-2 bg-card p-8 rounded-lg shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div>
             <label htmlFor="name" className="block text-sm font-semibold text-foreground mb-2">
@@ -158,6 +177,7 @@ export function ContactForm() {
           <Send className="w-4 h-4" />
           Send Message
         </button>
+        {result && <p className="text-center mt-4 text-sm font-medium">{result}</p>}
       </form>
     </div>
   )
