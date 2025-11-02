@@ -16,19 +16,19 @@ export default function BranchesPage() {
       name: "Dubai Headquarters",
       address: "Office 101, Business Bay, Dubai, UAE",
       phone: "+971 56 370 8034",
-      email: "info@niazminerals.com",
+      email: "Niazenterprises2@gmail.com",
     },
     {
       name: "Peshawar Main Office",
       address: "Niaz enterprises Near sarhad University opposite fahad CNG Peshawar",
-      phone: "[Phone of Branch 2]",
+      phone: "+971 56 370 8034",
       email: "Niazenterprises2@gmail.com",
     },
     {
       name: "Afghanistan",
-      address: "[Address of Branch 3]",
-      phone: "[Phone of Branch 3]",
-      email: "[Email of Branch 3]",
+      address: "Kabul, Afghanistan", // Please update with the actual address
+      phone: "+971 56 370 8034", // Please update if different
+      email: "Niazenterprises2@gmail.com",
     },
   ]
 
