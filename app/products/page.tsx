@@ -180,21 +180,7 @@ export default function ProductsPage() {
 
 
 
-      {/* CTA Section */}
-      <section className="py-20 bg-primary text-primary-foreground">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-white mb-6">Need a Custom Solution?</h2>
-          <p className="text-xl mb-8 text-primary-foreground/90">
-            Contact our technical team to discuss custom grades, bulk orders, or specific application requirements.
-          </p>
-          <a
-            href="/contact"
-            className="inline-block px-8 py-3 bg-white text-primary rounded-full font-semibold hover:shadow-xl transition-all duration-200"
-          >
-            Request a Quote
-          </a>
-        </div>
-      </section>
+
 
       <Footer />
     </main>
