@@ -113,7 +113,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             <div data-animate className="md:order-2 relative rounded-lg overflow-hidden shadow-xl h-96">
               <Image
-                src="/barite-mineral-powder.jpg"
+                src="/barite.jpg"
                 alt="Barite Mineral Powder"
                 fill
                 className="object-cover"
