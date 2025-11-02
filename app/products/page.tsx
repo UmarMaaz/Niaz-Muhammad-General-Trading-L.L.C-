@@ -117,7 +117,7 @@ export default function ProductsPage() {
             <div data-animate>
               <h3 className="text-3xl font-bold text-foreground mb-4">Talc</h3>
               <p className="text-muted-foreground mb-4">
-                Our premium talc enhances product performance, efficiency, and value across diverse sectors including cosmetics, pharmaceuticals, ceramics, plastics, and paints. This high-purity talc guarantees consistent particle size, superior whiteness, and reliable performance for both precision and large-scale industrial applications.
+                Discover the exceptional purity and versatility of our premium Talc, a naturally occurring mineral known for its softness, chemical inertness, and high thermal resistance. Our finely ground, high-purity talc enhances product performance, efficiency, and value across diverse sectors including cosmetics, pharmaceuticals, ceramics, plastics, and paints. As a leading industrial talc supplier, Niaz Muhammad General Trading L.L.C. guarantees consistent particle size, superior whiteness, and reliable performance for both precision and large-scale industrial applications. Ideal for cosmetic grade talc, pharmaceutical grade talc, and various industrial talc applications, our product ensures optimal results.
               </p>
               <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: Mg₃Si₄O₁₀(OH)₂</p>
               <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
@@ -154,7 +154,7 @@ export default function ProductsPage() {
             <div data-animate className="md:order-1">
               <h3 className="text-3xl font-bold text-foreground mb-4">Barite</h3>
               <p className="text-muted-foreground mb-4">
-                Barite, a high-density mineral, is vital for critical applications such as oil & gas drilling fluids, paints, plastics, rubber, and other industrial uses. Our premium-grade barite ensures exceptional purity, consistency, and dependable supply, engineered to meet stringent international standards and enhance industrial performance.
+                Explore our high-density Barite, a naturally occurring barium sulfate mineral, engineered for superior performance in demanding industrial environments. As a critical weighting agent, our premium-grade barite is vital for oil & gas drilling fluids (meeting API specifications), providing exceptional density and stability. Beyond drilling, it finds extensive use in paints, plastics, rubber, and various other industrial applications. Niaz Muhammad General Trading L.L.C. ensures exceptional purity, consistency, and dependable supply of industrial barite, engineered to meet stringent international standards and enhance your operational performance. Our barite is also suitable for radiation shielding and medical applications.
               </p>
               <p className="text-sm text-muted-foreground mb-3 font-mono">Formula: BaSO₄</p>
               <h4 className="font-semibold text-foreground mb-2">Characteristics:</h4>
