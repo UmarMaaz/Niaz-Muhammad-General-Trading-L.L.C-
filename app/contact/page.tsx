@@ -39,7 +39,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-foreground mb-12 text-center">Our Location</h2>
           <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4224.074920755935!2d55.337615!3d25.2519617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d247954a837%3A0x90ec4502586bb354!2sKhalid%20Abdulrahim%20Shaban%20Building!5e1!3m2!1sen%2s!4v1762149802671!5m2!1sen%2s" width="100%" height="100%" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4224.074920755935!2d55.337615!3d25.2519617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d247954a837%3A0x90ec4502586bb354!2sKhalid%20Abdulrahim%20Shaban%20Building!5e1!3m2!1sen!2s!4v1762149802671!5m2!1sen!2s" width="100%" height="100%" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
