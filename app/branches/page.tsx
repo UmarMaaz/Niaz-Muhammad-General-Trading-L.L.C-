@@ -14,20 +14,8 @@ export default function BranchesPage() {
   const branches = [
     {
       name: "Dubai Headquarters",
-      address: "Office 101, Business Bay, Dubai, UAE",
+      address: "City: Dubai, Area/Neighborhood: Al Garhoud, Building Name: KHALID SHABAN, Makani No.: 32583 93906, Plot Number: 115-0, Property No.(s): 203-200",
       phone: "+971 56 370 8034",
-      email: "Niazenterprises2@gmail.com",
-    },
-    {
-      name: "Peshawar Main Office",
-      address: "Niaz enterprises Near sarhad University opposite fahad CNG Peshawar",
-      phone: "+971 56 370 8034",
-      email: "Niazenterprises2@gmail.com",
-    },
-    {
-      name: "Afghanistan",
-      address: "Kabul, Afghanistan", // Please update with the actual address
-      phone: "+971 56 370 8034", // Please update if different
       email: "Niazenterprises2@gmail.com",
     },
   ]
