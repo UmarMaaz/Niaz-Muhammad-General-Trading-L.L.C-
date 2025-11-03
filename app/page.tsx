@@ -44,7 +44,7 @@ export default function Home() {
 
       <HeroSection
         title="Niaz Muhammad General Trading L.L.C."
-        subtitle="Premium Talc & Barite Supplier | Trusted Globally Since 2010"
+        subtitle="Premium Talc & Barite Supplier"
         backgroundVideo="/home_video.mp4"
 
         backgroundImage="/industrial-minerals-mining-facility.jpg"
