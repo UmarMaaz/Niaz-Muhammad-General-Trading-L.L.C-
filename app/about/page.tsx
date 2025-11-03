@@ -112,23 +112,11 @@ export default function AboutPage() {
       <section className="py-20 bg-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle title="Our Global Presence" subtitle="Find our branches across the globe" centered={true} />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 mt-12">
             <div className="bg-card p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-foreground mb-4">Dubai Headquarters</h3>
               <p className="text-muted-foreground">
-                Office 101, Business Bay, Dubai, UAE
-              </p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Peshawar Main Office</h3>
-              <p className="text-muted-foreground">
-                Niaz enterprises Near sarhad University opposite fahad CNG Peshawar
-              </p>
-            </div>
-            <div className="bg-card p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Afghanistan</h3>
-              <p className="text-muted-foreground">
-                [Address of Branch 3]
+                City: Dubai, Area/Neighborhood: Al Garhoud, Building Name: KHALID SHABAN, Makani No.: 32583 93906, Plot Number: 115-0, Property No.(s): 203-200
               </p>
             </div>
           </div>
