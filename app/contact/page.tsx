@@ -18,7 +18,7 @@ export default function ContactPage() {
       <HeroSection
         title="Get in Touch"
         subtitle="We're here to help. Reach out to our team with any questions or inquiries."
-        backgroundImage="/mineral-texture-background.jpg"
+        backgroundImage="/talc_contact.jpg"
         showScrollIndicator={true}
       />
 
