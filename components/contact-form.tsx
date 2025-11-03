@@ -49,7 +49,7 @@ export function ContactForm() {
             </div>
             <div>
               <h4 className="font-semibold text-foreground mb-1">Address</h4>
-              <p className="text-muted-foreground">Main office Niaz enterprises Near sarhad University opposite Fahad CNG Peshawar</p>
+              <p className="text-muted-foreground">KHALID SHABAN Building<br/>Al Garhoud, Dubai, United Arab Emirates<br/>Makani No.: 32583 93906<br/>Plot No.: 115-0<br/>Property No.(s): 203-200</p>
             </div>
           </div>
 
