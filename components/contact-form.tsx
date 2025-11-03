@@ -76,7 +76,7 @@ export function ContactForm() {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/971"
+          href="https://wa.me/971563708034"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-all duration-200 font-semibold"
