@@ -42,7 +42,7 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
-              [
+              {[
                 { label: "Contact", href: "/contact" },
               ].map((link) => (
                 <li key={link.label}>
