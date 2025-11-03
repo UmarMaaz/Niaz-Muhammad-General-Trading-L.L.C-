@@ -31,7 +31,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-foreground mb-6">Our Story</h2>
               <p className="text-muted-foreground mb-4 text-lg">
-                Founded in 2004, Niaz Muhammad General Trading L.L.C. emerged from a vision to become a trusted global
+                Founded in 2010, Niaz Muhammad General Trading L.L.C. emerged from a vision to become a trusted global
                 supplier of premium industrial minerals. What started as a small operation in Dubai has grown into a
                 respected name in the minerals industry.
               </p>
