@@ -117,11 +117,10 @@ export default function AboutPage() {
               <h3 className="text-2xl font-bold text-foreground mb-4">Dubai Headquarters</h3>
               <p className="text-muted-foreground">
                 KHALID SHABAN Building<br/>
-                Al Garhoud, Dubai<br/>
+                Al Garhoud, Dubai, United Arab Emirates<br/>
                 Makani No.: 32583 93906<br/>
-                Plot Number: 115-0<br/>
-                Property No.(s): 203-200<br/>
-                United Arab Emirates
+                Plot No.: 115-0<br/>
+                Property No.(s): 203-200
               </p>
             </div>
           </div>

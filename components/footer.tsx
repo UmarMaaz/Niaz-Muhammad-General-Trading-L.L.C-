@@ -26,7 +26,6 @@ export function Footer() {
               {[
                 { label: "Home", href: "/" },
                 { label: "About", href: "/about" },
-                { label: "Branches", href: "/branches" },
                 { label: "Products", href: "/products" },
                 { label: "Industries", href: "/industries" },
               ].map((link) => (
@@ -43,7 +42,7 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
-              {[
+              [
                 { label: "Downloads", href: "/downloads" },
                 { label: "Contact", href: "/contact" },
                 { label: "Privacy Policy", href: "#" },
