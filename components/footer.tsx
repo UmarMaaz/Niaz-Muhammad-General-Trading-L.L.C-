@@ -42,11 +42,8 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
-              [
-                { label: "Downloads", href: "/downloads" },
+              {[}
                 { label: "Contact", href: "/contact" },
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms & Conditions", href: "#" },
               ].map((link) => (
                 <li key={link.label}>
                   <Link href={link.href} className="text-background/80 hover:text-background transition-colors">
@@ -63,18 +60,24 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <Icons.MapPin />
-                <span className="text-background/80">Dubai, United Arab Emirates</span>
+                <span className="text-background/80">
+                  KHALID SHABAN Building<br/>
+                  Al Garhoud, Dubai, United Arab Emirates<br/>
+                  Makani No.: 32583 93906<br/>
+                  Plot No.: 115-0<br/>
+                  Property No.(s): 203-200
+                </span>
               </li>
               <li className="flex items-center gap-3">
                 <Icons.Phone />
-                <a href="tel:+971" className="text-background/80 hover:text-background">
-                  +971 XXXXXXXX
+                <a href="tel:+971563708034" className="text-background/80 hover:text-background">
+                  +971 56 370 8034
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Icons.Mail />
-                <a href="mailto:info@niazminerals.com" className="text-background/80 hover:text-background">
-                  info@niazminerals.com
+                <a href="mailto:Niazenterprises2@gmail.com" className="text-background/80 hover:text-background">
+                  Niazenterprises2@gmail.com
                 </a>
               </li>
             </ul>
